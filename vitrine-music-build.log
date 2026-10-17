@@ -1,0 +1,409 @@
+Command line invocation:
+    /Applications/Xcode_27.app/Contents/Developer/usr/bin/xcodebuild -project VitrineMusic/VitrineMusic.xcodeproj -scheme VitrineMusic -configuration Debug -destination generic/platform=iOS -derivedDataPath build/VitrineMusicDerivedData CODE_SIGNING_ALLOWED=NO build
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'VitrineMusic' in project 'VitrineMusic' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 676d67d58c22f91898753749c4427c10
+Build description path: /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/XCBuildData/676d67d58c22f91898753749c4427c10.xcbuilddata
+CreateBuildDirectory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    builtin-create-build-directory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/ModuleCache.noindex
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    builtin-create-build-directory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/ModuleCache.noindex
+
+CreateBuildDirectory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/CompilationCache.noindex
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    builtin-create-build-directory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/CompilationCache.noindex
+
+CreateBuildDirectory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    builtin-create-build-directory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    builtin-create-build-directory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products
+
+ClangStatCache /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKStatCaches.noindex/iphoneos27.0-24A430-edb66e1c87ad9550e0cc33700c257328.sdkstatcache
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -o /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKStatCaches.noindex/iphoneos27.0-24A430-edb66e1c87ad9550e0cc33700c257328.sdkstatcache
+
+CreateBuildDirectory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    builtin-create-build-directory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic-839fef8983d8ad3b1f392645cff0a3b9-VFS-iphoneos/all-product-headers.yaml
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic-839fef8983d8ad3b1f392645cff0a3b9-VFS-iphoneos/all-product-headers.yaml
+
+CreateBuildDirectory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    builtin-create-build-directory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/PrecompiledHeaders
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    builtin-create-build-directory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/PrecompiledHeaders
+
+CreateBuildDirectory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    builtin-create-build-directory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic/VitrineMusic.xcodeproj
+    builtin-create-build-directory /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/empty-Vitrine\ Music.plist (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/empty-Vitrine\ Music.plist
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music.hmap (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music.hmap
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music.DependencyStaticMetadataFileList (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music.DependencyMetadataFileList (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-project-headers.hmap (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-project-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-own-target-headers.hmap (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-generated-files.hmap (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-generated-files.hmap
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-all-target-headers.hmap (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-all-non-framework-target-headers.hmap (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-DebugDylibPath-normal-arm64.txt (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-DebugDylibInstallName-normal-arm64.txt (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-DebugDylibInstallName-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/VitrineMusic_const_extract_protocols.json (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/VitrineMusic_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/VitrineMusic-OutputFileMap.json (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/VitrineMusic-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.SwiftFileList (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.SwiftConstValuesFileList (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.LinkFileList (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    write-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.LinkFileList
+
+MkDir /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    /bin/mkdir -p /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app
+
+Ld /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/__preview.dylib normal (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0 -dynamiclib -isysroot /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -F/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -install_name @rpath/Vitrine\ Music.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music_dependency_info.dat -o /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/__preview.dylib
+
+ProcessInfoPlistFile /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Info.plist /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/empty-Vitrine\ Music.plist (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-infoPlistUtility /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/empty-Vitrine\ Music.plist -producttype com.apple.product-type.application -genpkginfo /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Info.plist
+
+SwiftDriver VitrineMusic normal arm64 com.apple.xcode.tools.swift.compiler (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-SwiftDriver -- /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Vitrine_Music -Onone @/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -target arm64-apple-ios26.0 -g -module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -F /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKStatCaches.noindex/iphoneos27.0-24A430-edb66e1c87ad9550e0cc33700c257328.sdkstatcache -output-file-map /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/VitrineMusic-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/VitrineMusic_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-generated-files.hmap -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-own-target-headers.hmap -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-project-headers.hmap -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/include -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music-Swift.h -working-directory /Users/runner/work/vitrine/vitrine/VitrineMusic -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/ptrcheck-9ACII60I9UCROBZJ8E1TEIC4B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdbool-EJLJO49A3DIRZ2DTWCKWI7SXG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_AvailabilityInternal-EQU5WSTW078MND8OXVJ4R2Z3X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_Builtin_float-3MIPN43TK319CW1GNZO465PI0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/ptrauth-6ODQJI7BFLRSVI3BV5M6PHGRD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-4WEXF8L9JQ16AM00VEV64DXJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdarg-EWH2JFBGPTCAQCTVE8SN16V22.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_DarwinFoundation1-COBDRC9UNB29A7YWFKMQF0M4I.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/DeveloperToolsSupport-97IDR0QIXS2H0OGW0GTJUW22E.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_Builtin_stddef-9SYXTGGW2JVNO98NY38U91C6X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/SwiftShims-4K8938MPLBX02AYCAOBTLHGA4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_Builtin_limits-79JOGPTN6W4TEW7CD77SUK8YW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_DarwinFoundation2-40JT1ZB0D8XJGQUFK2A3FDB44.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_Builtin_tgmath-2OYE1V1JKR8UMWPETSB1M8HB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdint-U2J6AR1WR3Y26WZCMYCBQW9W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/string_h-8J1CR808DW55GI1LDBWHDUXQ2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/sys_types-F19VVJELDBILKTYNJKNBAHX5C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_Builtin_stdatomic-38BBEN8JV3JPVUZKDBIAALSKG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_DarwinFoundation3-C7THUHFCYB4L7LCECVPW8SQKE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_Builtin_intrinsics-873YHUQ3PAKYMAOLKC0MO174C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_Builtin_inttypes-8F98UKI0U31ARZCWNT9PHJMYT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/Darwin-BZT3NPNUZL1XJHAI7Y7K2RJ4W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/simd-13EO0SPAO7UBN7JNWF5UB7GDK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/MachO-598ZFE090RPWVVW38N1O4GDE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/ObjectiveC-DOKGCY37W2OF5QYE27NJR8IMP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/os_object-AV7HFN63M1WB3O4BW95UKJ9CC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/os_workgroup-8476E0FPSI1GUU7HQTL7S84WF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/Dispatch-DIDXAWTPI47CO4Q8VA3W88FKY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/Spatial-EKJI6WI5PMA1BZ7TDMKBG2R7H.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/dnssd-9SW1FZSRC5AAQKVJULMQEHY9N.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreFoundation-E3LAL2IW46ZISLRU2GLY8GJOX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/XPC-EVBXWJN1PD5V1LUK61LBUM3B8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreGraphics-112B40UGR9LKQY2RM0K6LPW0O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CFNetwork-66U3LHMPQ9L12K55TQD9SV9UV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/os-4NW54I5G2GMQDC3MGYGVFHZIU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/Security-DI1GW0IY378XDAE4NA0PAQNZU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreAudioTypes-84SDUFACONPS6J5TQTQS7EHLD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/ImageIO-DNILTIKPA6H83M6EC7TIMIMAS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreText-ATOMTSAUDF2PYYMXTRVZQRYWF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreAudio-AI1HSHNUY52WYTY0K1YQD07WZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/Foundation-XGTTVL8JTVOZ4AUUXXMPTMSG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/Network-9NLDW8XPZQO08W4UPSOEC1YA8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/UserNotifications-EJZM1O8A3QHOPC0RAH7MP120W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreTransferable-EE1U1OFCR4RAQSV8EPGDWMTDY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/Symbols-A1DDCIPYOC4EAJIT9E99WJKBV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/Accessibility-CAW3JK75841RAU2MQ6CUIAX5G.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/DataDetection-7E9RTELM87GTB65MSKUSN3MKG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/FileProvider-EGWSENP4UYU4M6MW9GVS171S3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreMIDI-1174YN97WXVU1110ILF6T2FJV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/_LocationEssentials-959POXREADG63DGD4MRXU7SED.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreData-EV6HG1E1OCSHTKKLB8LFA8XDR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/OSLog-5U4TKY9YMCB4L43JP1L17R0T9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/IOSurface-BB73ZIETWCSJ8II83D7RHPN3S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/AudioToolbox-12983GULBVJMTIT1D07AEJ0YV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreLocation-FIJM3KMWKAXIZJ96497CADMZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-B3ND3YLB0YLQMOGV86JOKP6TY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/OpenGLES-4534JK08QQ7IRK38FGBCRMNTQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/UIUtilities-BOYD6P0W5023XV3K1KKYLPVPQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreMotion-F2IXTR8IA37DQ81SHHJFTRDP6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/Metal-ELBNFUQAS0KA0DX87NQSC0443.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/AVRouting-1OBU34UK0TQKAMK6RIAWED7ZM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreVideo-496JQ6CW39ABQVAOYDKFRY0TJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/QuartzCore-63ZXJQ8GHOGNVETFHTLZPW8UI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreImage-7TO8ZFC8CLRFCEDKMQD496GXT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/CoreMedia-8YJBLOOQWOYKFZW190LOLDZJ2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/SwiftUICore-F1FXYP3UF4NVZZD3M289PCLRM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/VideoToolbox-CKXS2ZC1XOWU47PFAY7HS0URK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/MediaToolbox-2O6SLKW0AQGW9RR0ODQ41K2FB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/UIKit-E9LYLW8GD9XA930AF0IJHPBQ1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/AVFAudio-1WXBZ146IPIN0X7OW5TZZ91W0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/AVFoundation-ALQ0B0OG29CJQGQLW1T8F5QWU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules/SwiftUI-4QHTFRFA412AKPHG7863KY9HL.pcm
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ Vitrine_Music (in target 'VitrineMusic' from project 'VitrineMusic')
+
+SwiftCompile normal arm64 (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    
+
+SwiftCompile normal arm64 Compiling\ VitrineMusicApp.swift /Users/runner/work/vitrine/vitrine/VitrineMusic/Sources/VitrineMusicApp.swift (in target 'VitrineMusic' from project 'VitrineMusic')
+
+SwiftCompile normal arm64 /Users/runner/work/vitrine/vitrine/VitrineMusic/Sources/VitrineMusicApp.swift (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-SwiftPerFileCompile VitrineMusicApp.swift
+
+SwiftCompile normal arm64 Compiling\ ContentView.swift /Users/runner/work/vitrine/vitrine/VitrineMusic/Sources/ContentView.swift (in target 'VitrineMusic' from project 'VitrineMusic')
+
+SwiftCompile normal arm64 /Users/runner/work/vitrine/vitrine/VitrineMusic/Sources/ContentView.swift (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-SwiftPerFileCompile ContentView.swift
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for Vitrine_Music (in target 'VitrineMusic' from project 'VitrineMusic')
+
+SwiftDriver\ Compilation\ Requirements VitrineMusic normal arm64 com.apple.xcode.tools.swift.compiler (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Vitrine_Music -Onone @/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -target arm64-apple-ios26.0 -g -module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -F /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKStatCaches.noindex/iphoneos27.0-24A430-edb66e1c87ad9550e0cc33700c257328.sdkstatcache -output-file-map /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/VitrineMusic-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/VitrineMusic_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-generated-files.hmap -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-own-target-headers.hmap -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-project-headers.hmap -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/include -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music-Swift.h -working-directory /Users/runner/work/vitrine/vitrine/VitrineMusic -experimental-emit-module-separately -disable-cmo
+
+SwiftMergeGeneratedHeaders /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/DerivedSources/Vitrine_Music-Swift.h /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music-Swift.h (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-swiftHeaderTool -arch arm64 /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music-Swift.h -o /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/DerivedSources/Vitrine_Music-Swift.h
+
+Copy /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine_Music.swiftmodule/arm64-apple-ios.swiftmodule /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.swiftmodule (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.swiftmodule /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine_Music.swiftmodule/arm64-apple-ios.swiftmodule
+
+Copy /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine_Music.swiftmodule/arm64-apple-ios.swiftdoc /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.swiftdoc (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.swiftdoc /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine_Music.swiftmodule/arm64-apple-ios.swiftdoc
+
+Copy /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine_Music.swiftmodule/arm64-apple-ios.abi.json /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.abi.json (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.abi.json /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine_Music.swiftmodule/arm64-apple-ios.abi.json
+
+Copy /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine_Music.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.swiftsourceinfo (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.swiftsourceinfo /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine_Music.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal arm64 Compiling VitrineMusicApp.swift (in target 'VitrineMusic' from project 'VitrineMusic')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ContentView.swift (in target 'VitrineMusic' from project 'VitrineMusic')
+
+SwiftDriver\ Compilation VitrineMusic normal arm64 com.apple.xcode.tools.swift.compiler (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-Swift-Compilation -- /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Vitrine_Music -Onone @/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -target arm64-apple-ios26.0 -g -module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -F /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKStatCaches.noindex/iphoneos27.0-24A430-edb66e1c87ad9550e0cc33700c257328.sdkstatcache -output-file-map /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/VitrineMusic-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/VitrineMusic_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-generated-files.hmap -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-own-target-headers.hmap -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-project-headers.hmap -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/include -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music-Swift.h -working-directory /Users/runner/work/vitrine/vitrine/VitrineMusic -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Vitrine\ Music.debug.dylib normal (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0 -dynamiclib -isysroot /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos -L/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -F/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos -F/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -filelist /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.LinkFileList -install_name @rpath/Vitrine\ Music.debug.dylib -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine_Music.swiftmodule -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Vitrine\ Music.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-ExecutorLinkFileList-normal-arm64.txt (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    construct-stub-executor-link-file-list /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Vitrine\ Music.debug.dylib /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'VitrineMusic' from project 'VitrineMusic')
+
+Ld /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Vitrine\ Music normal (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios26.0 -isysroot /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -F/Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music-ExecutorLinkFileList-normal-arm64.txt /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Vitrine\ Music.debug.dylib -o /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Vitrine\ Music
+
+CopySwiftLibs /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Vitrine\ Music.debug.dylib --scan-folder /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Frameworks --scan-folder /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/PlugIns --scan-folder /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/SystemExtensions --scan-folder /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Extensions --platform iphoneos --toolchain /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name Vitrine_Music --sdk-root /Applications/Xcode_27.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk --xcode-version 27A266a --platform-family iOS --deployment-target 26.0 --bundle-identifier com.ncomsystems.vitrinemusic --output /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app --target-triple arm64-apple-ios26.0 --binary-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Vitrine\ Music --dependency-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music_dependency_info.dat --stringsdata-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.SwiftFileList --metadata-file-list /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music.DependencyMetadataFileList --static-metadata-file-list /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music.DependencyStaticMetadataFileList --swift-const-vals-list /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Objects-normal/arm64/Vitrine\ Music.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-10-17 23:32:24.892 appintentsmetadataprocessor[6590:21407] Starting appintentsmetadataprocessor export
+2026-10-17 23:32:24.900 appintentsmetadataprocessor[6590:21407] warning: Metadata extraction skipped, no AppIntents.framework dependency found
+
+AppIntentsSSUTraining (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    /Applications/Xcode_27.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Info.plist --temp-dir-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/ssu --bundle-id com.ncomsystems.vitrinemusic --product-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app --extracted-metadata-path /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Metadata.appintents --metadata-file-list /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/VitrineMusic.build/Debug-iphoneos/VitrineMusic.build/Vitrine\ Music.DependencyMetadataFileList --source-file /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app/Info.plist --archive-ssu-assets
+2026-10-17 23:32:24.940 appintentsnltrainingprocessor[6591:21408] Parsing options for appintentsnltrainingprocessor
+2026-10-17 23:32:24.940 appintentsnltrainingprocessor[6591:21408] Starting AppIntents SSU YAML Generation
+2026-10-17 23:32:24.944 appintentsnltrainingprocessor[6591:21408] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-RegisterExecutionPolicyException /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app
+
+Validate /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    builtin-validationUtility /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app -shallow-bundle -infoplist-subpath Info.plist
+warning: All interface orientations must be supported unless the app requires full screen. (in target 'VitrineMusic' from project 'VitrineMusic')
+
+Touch /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app (in target 'VitrineMusic' from project 'VitrineMusic')
+    cd /Users/runner/work/vitrine/vitrine/VitrineMusic
+    /usr/bin/touch -c /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Products/Debug-iphoneos/Vitrine\ Music.app
+
+PruneExplicitPrecompiledModules /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /Users/runner/work/vitrine/vitrine/build/VitrineMusicDerivedData/SDKExplicitPrecompiledModules
+
+** BUILD SUCCEEDED **
+

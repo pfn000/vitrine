@@ -48,6 +48,7 @@ jobs:
       - name: Build for a physical iOS device (unsigned)
         run: |
           set -o pipefail
+          mkdir -p build
           xcodebuild \
             -project VitrineMusic/VitrineMusic.xcodeproj \
             -scheme VitrineMusic \
